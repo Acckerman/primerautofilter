@@ -56,8 +56,8 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
                                                  caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nFind Any Media ! if you need any movie then then enter the movie name + years. 👍\n\nGuys Enter Only movie Or Webseries Name like This 👇\nPushpa ✅\nPushpa 2021 ✅\nPushpa in Hindi ❌\nLucifer ✅\nLucifer S01 ✅\nLucifer all season ❌</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='http://t.me/real_MoviesAdda1') ],
-                                                                                      [ InlineKeyboardButton('🔥  ↭ DEV Channel ↭  🔥', url='http://t.me/LazyDeveloper') ]
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='http://t.me/k2m_movies_series') ],
+                                                                                      [ InlineKeyboardButton('🔥  ↭ owner ID ↭  🔥', url='http://t.me/Acckerman_offical') ]
                                                                                     ] )
                 )
 
