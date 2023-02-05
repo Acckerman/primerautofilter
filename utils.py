@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://du-link.in/st?api={URL_SHORTNER_WEBSITE_API}&url={link}'
+                    return f'https://du-link.in/st?api={URL_SHORTNER_WEBSITE_API}&url=destination link'
 
     except Exception as e:
         logger.error(e)
-        return f'https://du-link.in/st?api={URL_SHORTNER_WEBSITE_API}&url={link}'
+        return f'https://du-link.in/st?api={URL_SHORTNER_WEBSITE_API}&url=destination link'
