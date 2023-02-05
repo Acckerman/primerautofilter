@@ -86,6 +86,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/howToDowloadsh/98"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/k2m_movies_series"
+CAPTION_BUTTON_URL = "https://t.me/howToDowloadsh/98"
 
    # Auto Delete For Bot Sending Files #
