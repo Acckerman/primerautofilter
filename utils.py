@@ -385,10 +385,10 @@ async def get_shortlink(link):
 
     url = f'https://du-link.in/st?api'
     params = {'token': URL_SHORTNER_WEBSITE_API,
-              'link': link,
-              'format': 'json'
-              }
-
+              'url': link,
+               }
+            
+            
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
