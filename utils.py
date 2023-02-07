@@ -394,11 +394,11 @@ async def get_shortlink(link):
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
                 data = await response.json()
                 if data["status"] == "success":
-                    return data['shortenedlink']
+                    return data['shortenedurl']
                 else:
                     logger.error(f"Error: {data['message']}")
                     return f'https://du-link.in/st?api={URL_SHORTNER_WEBSITE_API}&url={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://du-link.in/st?api=6426621836b31128ed4785ab66affcdd71d73139&url={link}'
