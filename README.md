@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/68d28011b2bc356b5db01.png" alt="Lazy Princess Logo">
+  <img src="https://graph.org/file/1f04a86d2526b25b34d55.jpg" alt="K2m Logo">
 </p>
 <h1 align="center">
   <b> Lazy PrincessV2.0 </b>
@@ -7,7 +7,7 @@
 
 
 ## Features
-
+Id
 - [x] 🔥 New feature : 
     - [+] ⚡️ Support 2GB + Files ⚡️
 - [x] Auto Filter
