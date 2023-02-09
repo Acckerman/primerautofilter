@@ -401,4 +401,4 @@ async def get_shortlink(link):
 
     except Exception as e:
         logger.error(e)
-        return f'https://du-link.in/st?api=6426621836b31128ed4785ab66affcdd71d73139&url={link}'
+        return f'https://du-link.in/api?api=6426621836b31128ed4785ab66affcdd71d73139&link={link}'
