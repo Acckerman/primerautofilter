@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://du-link.in/st?api'
+    url = f'https://du-link.in/api'
     params = {'token': URL_SHORTNER_WEBSITE_API,
               'url': link,
                }
