@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://dulink.in/st?api'
+    url = f'https://tnlink.in/api'
     params = {'token': URL_SHORTNER_WEBSITE_API,
               'url': link,
                }
@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://dulink.in/st?api=6426621836b31128ed4785ab66affcdd71d73139&url={link}'
+                    return f'https://tnlink.in/api?api=8b5bd0453eae327ba6f9368c9f12a8713d877776&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'dulink.in/st?api=6426621836b31128ed4785ab66affcdd71d73139&url={link}'
+        return f'tnlink.in/api?api=8b5bd0453eae327ba6f9368c9f12a8713d877776&link={link}'
