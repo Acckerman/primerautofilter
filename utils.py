@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://mrlinks.xyz/api'
+    url = f'https://dulink.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
                }
@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://mrlinks.xyz/api?api=3f3097f95d660add14e3342aa9bebe753d9f3677&link={link}'
+                    return f'https://dulink.in/api?api=6426621836b31128ed4785ab66affcdd71d73139&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'mrlinks.xyz/api?api=3f3097f95d660add14e3342aa9bebe753d9f3677&link={link}'
+        return f'dulink.in/api?api=6426621836b31128ed4785ab66affcdd71d73139&link={link}'
