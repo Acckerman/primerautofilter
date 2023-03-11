@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'http://TinyFy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
+                    return f'https://TinyFy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'http://TinyFy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
+        return f'TinyFy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
