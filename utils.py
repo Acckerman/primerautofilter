@@ -401,4 +401,4 @@ async def get_shortlink(link):
 
     except Exception as e:
         logger.error(e)
-        return f'tinyfy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
+        return f'https://tinyfy.in/api?api=3977247de617b70e10e025fd4138bdc55a85e590&link={link}'
