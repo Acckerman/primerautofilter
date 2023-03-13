@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Creat bot 🤖', url='https://telegram.me/Acckerman_offical')
+                InlineKeyboardButton('🔔 ADMIN 🤖', url='https://telegram.me/K2m_admin_bot')
             ],
             [
                 InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_movies_series"),
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_movies_series"),
-            InlineKeyboardButton('🔔 create bot 🤖', url='https://t.me/Acckerman_offical')
+            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/K2m_admin_bot')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_movies_series"),
-            InlineKeyboardButton('🔔 create bot 🤖', url='https://t.me/Acckerman_offical')
+            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/K2m_admin_bot')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
