@@ -30,7 +30,7 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I have more than 1 million 
 ╚══════════════════❍⊱❁"""
     SOURCE_TXT = """<b>Acckerman is an open source project</b>
 
-You can easily get its source code from github - <a href='https://t.me/Acckerman_offical'>Contact</a>"""
+You can easily get its source code from github - <a href='https://t.me/K2m_admin_bot'>Contact</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
