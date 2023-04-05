@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Acckerman_offical')
 API_ID = int(environ.get('API_ID', '18517936'))
 API_HASH = environ.get('API_HASH', '552ce63ba82ea7a633b039ee0dc87790')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5939410451:AAEibCTsHviAgwEN-fyT5FdGYIGbDXQY1Tw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6046100338:AAFHxEfy-guTnfzh6a-s3-cWDJXcccfQ8V8")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -25,7 +25,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://graph.org/file/1f04a86d2526b25b34d55.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1753576629').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5557955876').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001669045020').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
