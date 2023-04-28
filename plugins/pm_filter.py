@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/howToDowloadsh/98')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/how_to_download_kpslinks/2')
         ]
     )
 
@@ -435,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_movies_series"),
-            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/K2m_admin_bot')
+            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_LinkZz"),
+            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/K2MLINKZZADMINBOT')
             ],[
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
