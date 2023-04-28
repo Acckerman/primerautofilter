@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 UPDATES 📢', url='https://t.me/k2m_movies_series')
+            InlineKeyboardButton('📢 UPDATES 📢', url='https://t.me/k2m_LinkZz')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -56,8 +56,8 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
                                                  caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nFind Any Media ! if you need any movie then then enter the movie name + years. 👍\n\nGuys Enter Only movie Or Webseries Name like This 👇\nPushpa ✅\nPushpa 2021 ✅\nPushpa in Hindi ❌\nLucifer ✅\nLucifer S01 ✅\nLucifer all season ❌</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='http://t.me/k2m_movies_series') ],
-                                                                                      [ InlineKeyboardButton('🔥  ↭ owner ID ↭  🔥', url='http://t.me/K2m_admin_bot') ]
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='http://t.me/k2m_LinkZz') ],
+                                                                                      [ InlineKeyboardButton('🔥  ↭ owner ID ↭  🔥', url='http://t.me/K2MLINKZZADMINBOT') ]
                                                                                     ] )
                 )
 
