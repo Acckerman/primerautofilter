@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'http://kpslink.in/api'
+    url = f'http://v2.kpslink.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
                }
@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://kpslink.in/api?api=dac3b781d9559128eaa02cccb64fca435e2a1f89&link={link}'
+                    return f'https://v2.kpslink.in/api?api=37569c86a17c41744af38814354fee77fb571103&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://kpslink.in/api?api=dac3b781d9559128eaa02cccb64fca435e2a1f89&link={link}'
+        return f'https://v2.kpslink.in/api?api=37569c86a17c41744af38814354fee77fb571103&link={link}'
