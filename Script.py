@@ -20,8 +20,8 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I have more than 1 million 
 ╔════❰ Walter white ❱═❍⊱❁۪۪
 ║ ┏━━━━━━━━━━━━━━━➣
 ║ ┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-║ ┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: ✨ <a href=https://t.me/K2MLINKZZADMINBOT>ADMIN</a> ✨
-║ ┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+║ ┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: ✨ <a href=https://t.me/tamil_rockers_owner>ADMIN</a> ✨
+║ ┣⪼ Creater: ✨ <a href=https://t.me/Contact_R2>creater</a> ✨
 ║ ┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ║ ┣⪼ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ║ ┣⪼ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: KOYEB
@@ -30,7 +30,7 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I have more than 1 million 
 ╚══════════════════❍⊱❁"""
     SOURCE_TXT = """<b>Acckerman is an open source project</b>
 
-You can easily get its source code from github - <a href='https://t.me/K2m_admin_bot'>Contact</a>"""
+You can easily get its source code from github - <a href='https://t.me/Contact_R2'>Contact</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
