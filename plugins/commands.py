@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 ADMIN 🤖', url='https://telegram.me/K2MLINKZZADMINBOT')
+                InlineKeyboardButton('🔔 ADMIN 🤖', url='https://telegram.me/tamil_rockers_owner')
             ],
             [
-                InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_LinkZz"),
+                InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/Tamil_Rockers_Hd_Official"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_LinkZz"),
-            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://telegram.me/K2MLINKZZADMINBOT')
+            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/Tamil_Rockers_Hd_Official"),
+            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://telegram.me/tamil_rockers_owner')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/k2m_LinkZz"),
-            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/K2MLINKZZADMINBOT')
+            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/Tamil_Rockers_Hd_Official"),
+            InlineKeyboardButton('🔔 ADMIN 🤖', url='https://t.me/tamil_rockers_owner')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://telegram.me/k2m_LinkZz')] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://telegram.me/Tamil_Rockers_Hd_Official')] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
