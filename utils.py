@@ -397,7 +397,7 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://v2.kpslink.in/api?api=1bfa962d2e22a73539b0e7f417584cf5bc73ff62&link={k={link}'
+                    return f'https://v2.kpslink.in/api?api=1bfa962d2e22a73539b0e7f417584cf5bc73ff62&link={link}'
 
     except Exception as e:
         logger.error(e)
