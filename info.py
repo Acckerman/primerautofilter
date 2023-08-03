@@ -83,7 +83,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/how_to_download_kpslinks/2"
+DOWNLOAD_TEXT_URL = "https://t.me/kps_Link_how_to_Download/4"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
