@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'http://Dalink.in/api'
+    url = f'http://tnshort.net/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
                }
@@ -397,8 +397,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://Dalink.in/api?api=a30bc30ee1ce5cfd7fc04f87fbb4918e64a81cb2&link={link}'
+                    return f'https://tnshort.net/api?api=4e339177901a10cdc68f4e6d1f230d2fad7e2c0a&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://Dalink.in/api?api=a30bc30ee1ce5cfd7fc04f87fbb4918e64a81cb2&link={link}'
+        return f'https://tnshort.net/api?api=4e339177901a10cdc68f4e6d1f230d2fad7e2c0a&link={link}'
